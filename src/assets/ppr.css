@@ -1,0 +1,124 @@
+.ppr {
+	font-family: Monaco,"Bitstream Vera Sans Mono",Consolas,"Courier New",monospace;
+	font-size: 12px;
+	line-height: 130%;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	background-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,0.92);
+	border: 1px solid #888;
+	padding: 5px;
+	text-align: left;
+	clear: both
+}
+
+.ppr-array,
+.ppr-object,
+.ppr-resource {
+	font-style: italic
+}
+
+.ppr-brace,.ppr-parens {
+	font-style: normal
+}
+
+.ppr-string {
+	color: #080;
+	font-weight: normal
+}
+
+.ppr-unprintable {
+	color: #C500FF
+}
+ 
+.ppr-space {
+	background: #FFFCD2 url(ppr-space.gif) no-repeat 50% 50%;
+}
+
+.ppr-tab { 
+	background: #F8B9F3 url(ppr-tab.gif) no-repeat 50% 50%;
+}
+
+.ppr-lquot {
+	color: #777;
+	font-family: "Times New Roman",Times,serif;
+	font-weight: bold;
+	font-size: 10px;
+	margin-right: 2px
+}
+
+.ppr-rquot {
+	color: #777;
+	font-family: "Times New Roman",Times,serif;
+	font-weight: bold;
+	font-size: 10px;
+	margin-left: 2px
+}
+
+.ppr-arrow {
+	color: #656DA9;
+}
+
+.ppr-array-key {
+	color: #303030;
+}
+
+.ppr-class,
+.ppr-resource-type {
+	color: #05e;
+	font-weight: bold;
+	font-style: normal
+}
+
+.ppr-null {
+	color: #00e;
+	font-style: italic
+}
+
+.ppr-bool {
+	color: #d70;
+	font-style: italic
+}
+
+.ppr-bracket {
+	color: #bbb;
+}
+
+.ppr-float {
+	color: #20e;
+	font-weight: bold
+}
+
+.ppr-int {
+	color: #c00;
+	font-weight: bold;
+}
+
+.ppr-max {
+	text-transform: uppercase;
+	font-style: italic;
+	color: #b66;
+	font-weight: bold;
+}
+
+.ppr-collapser {
+	cursor: pointer;
+	width: 9px;
+	background: url(ppr-icon-minus.gif) no-repeat 0 2px;
+}
+
+.ppr-collapsed {
+	background: url(ppr-icon-plus.gif) no-repeat 0 2px;
+}
+
+.ppr-more {
+	cursor: pointer;
+	width: 9px;	
+	background: url(ppr-icon-more.gif) no-repeat 100% 2px;
+}
+
+.ppr-less {
+	cursor: pointer;
+	width: 9px;	
+	background: url(ppr-icon-less.gif) no-repeat 100% 100%;
+}
